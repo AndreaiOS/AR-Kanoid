@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5F3238D1F0FD41B00602102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3238C1F0FD41B00602102 /* AppDelegate.swift */; };
+		A5F3238F1F0FD41B00602102 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F3238E1F0FD41B00602102 /* art.scnassets */; };
+		A5F323911F0FD41B00602102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F323901F0FD41B00602102 /* ViewController.swift */; };
+		A5F323941F0FD41B00602102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F323921F0FD41B00602102 /* Main.storyboard */; };
+		A5F323961F0FD41B00602102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F323951F0FD41B00602102 /* Assets.xcassets */; };
+		A5F323991F0FD41B00602102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F323971F0FD41B00602102 /* LaunchScreen.storyboard */; };
+		A5F323A41F0FD41B00602102 /* AR_KanoidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F323A31F0FD41B00602102 /* AR_KanoidTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5F323A01F0FD41B00602102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F323811F0FD41B00602102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F323881F0FD41B00602102;
+			remoteInfo = "AR-Kanoid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5F323891F0FD41B00602102 /* AR-Kanoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Kanoid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F3238C1F0FD41B00602102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5F3238E1F0FD41B00602102 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		A5F323901F0FD41B00602102 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5F323931F0FD41B00602102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5F323951F0FD41B00602102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5F323981F0FD41B00602102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5F3239A1F0FD41B00602102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F3239F1F0FD41B00602102 /* AR-KanoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-KanoidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F323A31F0FD41B00602102 /* AR_KanoidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_KanoidTests.swift; sourceTree = "<group>"; };
+		A5F323A51F0FD41B00602102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F323861F0FD41B00602102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3239C1F0FD41B00602102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5F323801F0FD41B00602102 = {
+			isa = PBXGroup;
+			children = (
+				A5F3238B1F0FD41B00602102 /* AR-Kanoid */,
+				A5F323A21F0FD41B00602102 /* AR-KanoidTests */,
+				A5F3238A1F0FD41B00602102 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F3238A1F0FD41B00602102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F323891F0FD41B00602102 /* AR-Kanoid.app */,
+				A5F3239F1F0FD41B00602102 /* AR-KanoidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F3238B1F0FD41B00602102 /* AR-Kanoid */ = {
+			isa = PBXGroup;
+			children = (
+				A5F3238C1F0FD41B00602102 /* AppDelegate.swift */,
+				A5F3238E1F0FD41B00602102 /* art.scnassets */,
+				A5F323901F0FD41B00602102 /* ViewController.swift */,
+				A5F323921F0FD41B00602102 /* Main.storyboard */,
+				A5F323951F0FD41B00602102 /* Assets.xcassets */,
+				A5F323971F0FD41B00602102 /* LaunchScreen.storyboard */,
+				A5F3239A1F0FD41B00602102 /* Info.plist */,
+			);
+			path = "AR-Kanoid";
+			sourceTree = "<group>";
+		};
+		A5F323A21F0FD41B00602102 /* AR-KanoidTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F323A31F0FD41B00602102 /* AR_KanoidTests.swift */,
+				A5F323A51F0FD41B00602102 /* Info.plist */,
+			);
+			path = "AR-KanoidTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F323881F0FD41B00602102 /* AR-Kanoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F323A81F0FD41B00602102 /* Build configuration list for PBXNativeTarget "AR-Kanoid" */;
+			buildPhases = (
+				A5F323851F0FD41B00602102 /* Sources */,
+				A5F323861F0FD41B00602102 /* Frameworks */,
+				A5F323871F0FD41B00602102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR-Kanoid";
+			productName = "AR-Kanoid";
+			productReference = A5F323891F0FD41B00602102 /* AR-Kanoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5F3239E1F0FD41B00602102 /* AR-KanoidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F323AB1F0FD41B00602102 /* Build configuration list for PBXNativeTarget "AR-KanoidTests" */;
+			buildPhases = (
+				A5F3239B1F0FD41B00602102 /* Sources */,
+				A5F3239C1F0FD41B00602102 /* Frameworks */,
+				A5F3239D1F0FD41B00602102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F323A11F0FD41B00602102 /* PBXTargetDependency */,
+			);
+			name = "AR-KanoidTests";
+			productName = "AR-KanoidTests";
+			productReference = A5F3239F1F0FD41B00602102 /* AR-KanoidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F323811F0FD41B00602102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Andrea Murru";
+				TargetAttributes = {
+					A5F323881F0FD41B00602102 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					A5F3239E1F0FD41B00602102 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = A5F323881F0FD41B00602102;
+					};
+				};
+			};
+			buildConfigurationList = A5F323841F0FD41B00602102 /* Build configuration list for PBXProject "AR-Kanoid" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5F323801F0FD41B00602102;
+			productRefGroup = A5F3238A1F0FD41B00602102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F323881F0FD41B00602102 /* AR-Kanoid */,
+				A5F3239E1F0FD41B00602102 /* AR-KanoidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F323871F0FD41B00602102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3238F1F0FD41B00602102 /* art.scnassets in Resources */,
+				A5F323991F0FD41B00602102 /* LaunchScreen.storyboard in Resources */,
+				A5F323961F0FD41B00602102 /* Assets.xcassets in Resources */,
+				A5F323941F0FD41B00602102 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3239D1F0FD41B00602102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F323851F0FD41B00602102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F323911F0FD41B00602102 /* ViewController.swift in Sources */,
+				A5F3238D1F0FD41B00602102 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3239B1F0FD41B00602102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F323A41F0FD41B00602102 /* AR_KanoidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5F323A11F0FD41B00602102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F323881F0FD41B00602102 /* AR-Kanoid */;
+			targetProxy = A5F323A01F0FD41B00602102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5F323921F0FD41B00602102 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F323931F0FD41B00602102 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5F323971F0FD41B00602102 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F323981F0FD41B00602102 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5F323A61F0FD41B00602102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5F323A71F0FD41B00602102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5F323A91F0FD41B00602102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NPW2FFV56A;
+				INFOPLIST_FILE = "AR-Kanoid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tad.AR-Kanoid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5F323AA1F0FD41B00602102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NPW2FFV56A;
+				INFOPLIST_FILE = "AR-Kanoid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tad.AR-Kanoid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5F323AC1F0FD41B00602102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NPW2FFV56A;
+				INFOPLIST_FILE = "AR-KanoidTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tad.AR-KanoidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR-Kanoid.app/AR-Kanoid";
+			};
+			name = Debug;
+		};
+		A5F323AD1F0FD41B00602102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NPW2FFV56A;
+				INFOPLIST_FILE = "AR-KanoidTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tad.AR-KanoidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR-Kanoid.app/AR-Kanoid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F323841F0FD41B00602102 /* Build configuration list for PBXProject "AR-Kanoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F323A61F0FD41B00602102 /* Debug */,
+				A5F323A71F0FD41B00602102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F323A81F0FD41B00602102 /* Build configuration list for PBXNativeTarget "AR-Kanoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F323A91F0FD41B00602102 /* Debug */,
+				A5F323AA1F0FD41B00602102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5F323AB1F0FD41B00602102 /* Build configuration list for PBXNativeTarget "AR-KanoidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F323AC1F0FD41B00602102 /* Debug */,
+				A5F323AD1F0FD41B00602102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F323811F0FD41B00602102 /* Project object */;
+}
