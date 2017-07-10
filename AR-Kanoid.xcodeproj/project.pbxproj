@@ -14,6 +14,10 @@
 		A5F323961F0FD41B00602102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F323951F0FD41B00602102 /* Assets.xcassets */; };
 		A5F323991F0FD41B00602102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F323971F0FD41B00602102 /* LaunchScreen.storyboard */; };
 		A5F323A41F0FD41B00602102 /* AR_KanoidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F323A31F0FD41B00602102 /* AR_KanoidTests.swift */; };
+		A5F323AF1F13C12600602102 /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F323AE1F13C12600602102 /* GameConfig.swift */; };
+		A5F323B31F13C38200602102 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F323B21F13C38200602102 /* GameScene.swift */; };
+		A5F323B51F13C4EF00602102 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F323B41F13C4EF00602102 /* GameState.swift */; };
+		A5F323B71F13C5AA00602102 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F323B61F13C5AA00602102 /* GameEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		A5F3239F1F0FD41B00602102 /* AR-KanoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-KanoidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F323A31F0FD41B00602102 /* AR_KanoidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_KanoidTests.swift; sourceTree = "<group>"; };
 		A5F323A51F0FD41B00602102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F323AE1F13C12600602102 /* GameConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfig.swift; sourceTree = "<group>"; };
+		A5F323B21F13C38200602102 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A5F323B41F13C4EF00602102 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		A5F323B61F13C5AA00602102 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,10 @@
 				A5F3238C1F0FD41B00602102 /* AppDelegate.swift */,
 				A5F3238E1F0FD41B00602102 /* art.scnassets */,
 				A5F323901F0FD41B00602102 /* ViewController.swift */,
+				A5F323B21F13C38200602102 /* GameScene.swift */,
+				A5F323B41F13C4EF00602102 /* GameState.swift */,
+				A5F323B61F13C5AA00602102 /* GameEngine.swift */,
+				A5F323AE1F13C12600602102 /* GameConfig.swift */,
 				A5F323921F0FD41B00602102 /* Main.storyboard */,
 				A5F323951F0FD41B00602102 /* Assets.xcassets */,
 				A5F323971F0FD41B00602102 /* LaunchScreen.storyboard */,
@@ -201,7 +213,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F323B31F13C38200602102 /* GameScene.swift in Sources */,
 				A5F323911F0FD41B00602102 /* ViewController.swift in Sources */,
+				A5F323B71F13C5AA00602102 /* GameEngine.swift in Sources */,
+				A5F323AF1F13C12600602102 /* GameConfig.swift in Sources */,
+				A5F323B51F13C4EF00602102 /* GameState.swift in Sources */,
 				A5F3238D1F0FD41B00602102 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
